@@ -1,19 +1,12 @@
-body{
-	background-image: url("../img/bg.jpg") no-repeat;
-}
+/*body{
+	background: url("../img/bg.jpg") no-repeat;
+}*/
 
 .bg_logo_konten{
 	background: 
-		linear-gradient(rgba(119, 121, 112,0.9),rgba(119, 121, 112,0.9)), 
-		url("../img/background.jpg") no-repeat ;
-	color: #FFF;
-	background-size: cover;
-}
-.bg_logo_konten{
-	background: 
-		linear-gradient(rgba(119, 121, 112,0.9),rgba(119, 121, 112,0.9)), 
-		url("../img/background.jpg") no-repeat ;
-	color: #FFF;
+		linear-gradient(rgba(0, 102, 204,0.9),rgba(0, 102, 204,0.9)), 
+		url("../img/bg.jpg");
+	color: #0066cc;
 	background-size: cover;
 }
 .row_pjg{
@@ -21,45 +14,16 @@ body{
 }
 .logo{
 	background: url("../img/logo.png") no-repeat;
-	width: 144px;
-	height: 153px;
-	top: 217px;
-	right: 120px;
+	width: 100px;
+	height: 50px;
+	top: 200px;
+	right: 415px;
 	position: relative;
-}
-.grs_bwh{
-	border-bottom: 1.5px solid #FFF;
-	top: 251px;
-	right: 108px;
-	position: relative;
-	width: 242px;
-	float: right;
-}
-.subtitle{
-	position: relative;
-	top: 252px;
-	left: 127px;
-	font-weight: bold;
-	font-size: 32px;
-}
-.title{
-	position: relative;;
-	top: 280px;
-	left: 127px;
-	font-weight: 300;
-	font-size: 32px;
-	text-align: right;
 }
 .login_box{
 	position: relative;
 	top: 250px;
-	left: 400px;	
-}
-.some_text{
-	width: 67%;
-	color: #999;
-	font-size: 15px;
-	margin-bottom: 10%;
+	left: 415px;	
 }
 .rounded_input{
 	border-radius: 30px;
@@ -71,4 +35,20 @@ body{
 .rounded_btn_login{
 	width: 100px;
 	border-radius: 30px;
+	background-color: #ffffff;
+}
+.biru{
+	color: #0066cc;
+}
+.putih{
+	color: #ffffff;
+}
+.signup{
+	padding-left: 15px;
+}
+.header{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 15px;
 }
